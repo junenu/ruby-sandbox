@@ -1,15 +1,17 @@
 def fizz_buzz(num)
     if num % 15 == 0
-        puts("Fizz Buzz")
+        'Fizz Buzz'
     elsif num % 3 == 0
-        puts("Fizz")
+        'Fizz'
     elsif num % 5 == 0
-        puts("Buzz")
+        'Buzz'
     else
-        puts(num)
+        num.to_s
     end
 end
 
-for num in 1..20 do
-    puts(fizz_buzz(num))
-end
+puts fizz_buzz(1)
+puts fizz_buzz(2)
+puts fizz_buzz(3)
+puts fizz_buzz(10)
+puts fizz_buzz(15)
