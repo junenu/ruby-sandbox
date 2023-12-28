@@ -10,7 +10,8 @@ def fizz_buzz(num)
     end
 end
 
-numbers = [1,2,3,10,15]
+numbers = (1..15).to_a #=>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+#=>numbers = (1...15).to_a #=>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 numbers.each do |num|
     puts fizz_buzz(num)
 end
