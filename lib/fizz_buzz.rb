@@ -10,8 +10,7 @@ def fizz_buzz(num)
     end
 end
 
-puts fizz_buzz(1)
-puts fizz_buzz(2)
-puts fizz_buzz(3)
-puts fizz_buzz(10)
-puts fizz_buzz(15)
+numbers = [1,2,3,10,15]
+numbers.each do |num|
+    puts fizz_buzz(num)
+end
