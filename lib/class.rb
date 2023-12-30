@@ -1,5 +1,4 @@
 class User
-
     def initialize(name)
         @name = name
     end
@@ -12,5 +11,5 @@ end
 user1 = User.new("Alice")
 user2 = User.new("Mike")
 
-user1.hello
-user2.hello
+user1.hello #=> hello Alice
+user2.hello #=> hello Mike
