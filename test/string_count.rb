@@ -1,0 +1,1 @@
+p "a\nahkfsa\na".count("a") # => 4
